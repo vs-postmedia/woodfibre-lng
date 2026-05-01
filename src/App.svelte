@@ -9,7 +9,7 @@
 
     // SET CHART HEIGH & URL HERE...
     const chartId01 = '28786191';
-    const chartHeight = (window.innerWidth < 500) ? '300px': '500px';
+    const chartHeight = (window.innerWidth < 500) ? '300px': '600px';
     const fullWidthId = '28724001'
     const fullWidthHeight = '400px';
 
