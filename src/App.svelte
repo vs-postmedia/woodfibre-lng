@@ -43,24 +43,5 @@
 
 <!-- CSS -->
 <style>
-    /* STEPS */
-    section {
-        position: relative;
-    }
-    .sticky { 
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 1.5rem;
-        position: sticky;
-        top: 5vh;
-        z-index: 1;
-    }
-    .chart .no-pointer {
-        pointer-events: none;
-    }
-    .steps {
-        margin-top: -100%;
-        position: relative;
-        z-index: 2;
-    }
+    
 </style>
