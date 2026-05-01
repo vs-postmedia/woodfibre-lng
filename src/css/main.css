@@ -1,0 +1,46 @@
+/* APP & CHART WRAPPER */
+#app {
+	margin: 0 auto;
+	max-width: 750px;
+}
+#app header {
+	margin-bottom: 12px;
+}
+.graphic-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem auto 0.25rem auto;
+}
+
+.graphic-container.full-width {
+	display: block;
+}
+.graphic-container .flourish-chart,
+.graphic-container > iframe,
+.graphic-container .img-div {
+	flex: 1;
+	max-width: 48%;
+}
+
+.graphic-container.full-width .flourish-chart,
+.graphic-container.full-width > iframe,
+.graphic-container.full-width > .img-div {
+	flex: 1;
+	max-width: 100%;
+}
+.graphic-container .flourish-chart:nth-of-type(1) {
+	margin-right: 0.5rem;
+}
+.image-container img {
+	width: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+
+

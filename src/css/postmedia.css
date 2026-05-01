@@ -1,0 +1,80 @@
+/* POSTMEDIA STYLES */
+#app h1 {
+	color: var(--black);
+	font-family: Shift-BoldItalic, serif;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+	text-align: left;
+}
+#app h2 {
+	color: var(--black);
+	font-family: BentonSansCond-Bold, sans-serif;
+	line-height: 1.3;
+	margin: 1px 0;
+}
+#app h3 {
+	color: var(--black);
+	font-family: BentonSansCond-Bold, sans-serif;
+	line-height: 1.3;
+}
+#app h4 {
+	color: var(--black);
+	font-family: BentonSansCond-Regular, sans-serif;
+	font-size: 0.8rem;
+}
+
+#app p {
+	color: var(--black);
+	font-family: BentonSansCond-Regular, Helvetica, sans-serif;
+	line-height: 1.3rem;
+	margin: 0;
+}
+#app .subhead {
+	font-family: 'Shift-Book';
+    font-size: 1.2rem;
+	text-align: left;
+}
+#app footer {
+	display: flex;
+}
+
+#app footer > p {
+	flex: 1;
+}
+
+#app .note,
+#app .source,
+#app .credit {
+	color: var(--grey02);
+	font-size: 0.8rem;
+}
+
+#app .credit {
+	text-align: right;
+}
+
+#app .source a {
+	color: inherit;
+}
+
+
+.bold {
+	font-family: 'BentonSansCond-Bold';
+}
+.italic {
+	font-family: 'BentonSansCond-RegItalic';
+}
+
+/* COLOURS */
+.blue-01 {
+	background-color: var(--blue01);
+	border-radius: 2px;
+	color: #FFF;
+	padding: 1px 2px;
+}
+.green-01 {
+	background-color: var(--green01);
+	border-radius: 2px;
+	color: #FFF;
+	padding: 1px 2px;
+}
